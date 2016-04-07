@@ -1,0 +1,15 @@
+/*
+Theme Name: tufteblog
+Theme URI: http://naturaily.com/
+Description: Awesome theme for Suler
+Author: Me
+Author URI: http://naturaily.com/
+Version: 0.1.0
+*/
+
+
+/*@import url('css/editor-style.css');*/
+@import url('styles/tufte.css');
+
+@import url('styles/main.css');
+@import url('styles/error.css');

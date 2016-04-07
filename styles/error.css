@@ -1,0 +1,52 @@
+body.error {
+  margin-left: 0;
+  border-left: none;
+  text-align: center;
+  margin: 0;
+}
+html.error-html {
+  min-height: 100%;
+  margin-top: 0 !important;
+}
+body.error .entry-title {
+  width: 100%;
+  font-size: 50px;
+}
+h1.error-title {
+  font-size: 80px;
+  margin-top: 0;
+  font-style: italic;
+  font-weight: 600;
+}
+body.error p {
+  width: 100%;
+  word-break: break-word;
+}
+
+.post.error404 {
+  height: 100%;
+  position: relative;
+}
+.error404-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%);
+  -moz-transform: translate(-50%, 50%);
+  -o-transform: translate(-50%, 50%);
+  transform: translate(-50%, 50%);
+}
+@media all and (max-width: 992px) {
+  .error404-wrapper {
+    width: 80%;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .error404-wrapper {
+    -webkit-transform: translate(-50%, 30%);
+    -moz-transform: translate(-50%, 30%);
+    -o-transform: translate(-50%, 30%);
+    transform: translate(-50%, 30%);
+  }
+}
