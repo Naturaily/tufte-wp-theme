@@ -1,4 +1,5 @@
-Tufte-wp-theme
+Tufte CSS
+=========
 A simple wordpress theme based on [Tufte CSS](https://github.com/edwardtufte/tufte-css).
 
 License
